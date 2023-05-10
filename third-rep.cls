@@ -47,7 +47,15 @@
   \thispagestyle{empty}%
   \vspace*{1.4in}
   \begin{center}
-    {\large {\@coursetitle \\ Academic Year \@reportyear} \\
+    {\large 
+      
+      % uom logo start
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale=1.5]{uomlogo.png}
+      \end{figure}
+      
+      {\@coursetitle \\ Academic Year \@reportyear} \\
       \vspace*{0.2in}
       {\bf \@title} \\
       \vspace*{0.2in}
